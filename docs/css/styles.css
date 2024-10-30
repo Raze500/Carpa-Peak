@@ -1,0 +1,83 @@
+/* Estilo general hhh */
+body {
+    background-color: #1a1a1a; /* Fondo gris oscuro */
+    color: #e0e0e0; /* Texto gris claro */
+    font-family: 'Georgia', serif; /* Fuente con estilo clásico */
+    line-height: 1.6; /* Espaciado entre líneas */
+}
+
+/* Estilo para la barra de navegación */
+.navbar {
+    background-color: #222; /* Fondo de barra de navegación oscuro */
+}
+
+.navbar a {
+    color: #e0e0e0; /* Color de texto en la barra de navegación */
+}
+
+.navbar a:hover {
+    color: #ffcc00; /* Color de texto al pasar el raton */
+}
+
+.navbar .md-nav__link.md-nav__link--active {
+    color: #bd0000 !important; /* Color rojo oscuro de enlace (cochinada rara) */
+}
+
+/* Estilo del pie de pag */
+.footer {
+    background-color: #ffffff; 
+    color: #e0e0e0; 
+    text-align: center; 
+    padding: 10px 0; 
+    font-size: 0.9em; 
+}
+
+/* Estilo para secciones específicas */
+section {
+    background-color: #2a2a2a; /* Fondo ligeramente más claro para secciones */
+    padding: 20px; /* Espaciado interno */
+    border-radius: 30px; /* Esquinas más redondeadas */
+    margin-bottom: 20px; /* Espaciado entre secciones */
+}
+
+/* Estilos de encabezados */
+h1 {
+	color: #bd0000 !important; /* POR ALGUNA RAZON SE VUELVE NEGRO SI LE QUITO EL IMPORTANT */
+    border-bottom: 2px solid #ffcc00; /* Borde dorado */
+}
+
+h2, h3, h4, h5, h6 {
+    color: #ffffff; /* Colores de encabezados claros (gris claro) */
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.8); /* Sombra para dar profundidad */
+}
+
+/* Enlaces */
+a {
+    color: #c0c0c0; /* Color de enlaces gris claro */
+    text-decoration: none; /* Sin subrayado */
+}
+
+a:hover {
+    color: #ffcc00; /* Color dorado al pasar el ratón */
+    text-decoration: underline; /* Subrayado al pasar el ratón */
+}
+
+/* Botones */
+button {
+    background-color: #ffffff;
+    color: #e0e0e0; /* Texto claro */
+    border: 1px solid #ffcc00; 
+    padding: 10px 20px; 
+    border-radius: 5px; 
+    transition: background-color 0.3s; 
+}
+
+button:hover {
+    background-color: #444; 
+}
+
+:root { /* copy paste de la documentacion */
+	--md-primary-fg-color:        #EE0F0F;
+	--md-primary-fg-color--light: #ECB7B7;
+	--md-primary-fg-color--dark:  #90030C;
+  }
